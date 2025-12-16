@@ -3,6 +3,8 @@
 ## Author: Tom Chant
 
 - [Build an Express API](https://scrimba.com/learn-expressjs-c062las154)
+- [Build a Fullstack Express App](https://scrimba.com/learn-expressjs-c062las154)
+- [Authentication](https://scrimba.com/learn-expressjs-c062las154)
 
 ---
 
