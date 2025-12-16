@@ -1,11 +1,20 @@
 // src/app.js
 
 import express from "express"
+import cors from "cors"
 
-const app = express();
+// routes
+import apiRoutes from "./routes/apiRoutes.js"
 
-app.get("/", (req, res) => {
-  res.send("Hello world")
+const app = express()
+
+app.use(cors())
+
+app.use("/api", apiRoutes)
+
+
+app.use((req, res) => {
+  res.status(404).json({ message: "Endpoint not found. Please check the API documentation." })
 })
 
 export default app

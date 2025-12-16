@@ -1,5 +1,5 @@
 {
-  "name": "scrimba-classes",
+  "name": "startup_planet",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -9,10 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Clay Aucoin",
   "license": "ISC",
-  "description": "",
+  "description": "a dataset of the world’s most promising startups",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.2.1"
   },
   "devDependencies": {
